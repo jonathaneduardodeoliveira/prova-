@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova - Questões</title>
+
+    <link rel="stylesheet" href="di_stile.css">
+    <div id="tempo-restante"></div >
+
+</head>
+<body>
+    <h1>Prova - Questões</h1>
+
+<form id="myForm">
+  <label for="name">Nome:</label><br>
+  <input type="text" id="name" name="name"><br><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br><br>
+
+
+    <!-- Questão 1 -->
+    <div class="question" id="q1">
+
+        <h2>Questão 1</h2>
+
+        <h3> Verdadeiro ou Falso? </h3>
+
+        <p>Desde 1817, só há uma Bolsa de Valores no Brasil.</p>
+        <form>
+            <input type="radio" id="verdadeiro" name="resposta_q1" value="verdadeiro">
+            <label for="verdadeiro">Verdadeiro</label><br>
+            <input type="radio" id="falso" name="resposta_q1" value="falso">
+            <label for="falso">Falso</label><br>
+        </form>
+        <a href="#q2">Próxima Questão</a>
+    </div>
+
+    <!-- Questão 2 -->
+    <div class="question" id="q2">
+        <h2>Questão 2</h2>
+        <p>Qual destas é uma empresa de tecnologia?</p>
+        <form>
+            <input type="radio" id="apple" name="resposta_q2" value="apple">
+            <label for="apple">Apple</label><br>
+            <input type="radio" id="ford" name="resposta_q2" value="ford">
+            <label for="ford">Ford</label><br>
+            <input type="radio" id="microsoft" name="resposta_q2" value="microsoft">
+            <label for="microsoft">Microsoft</label><br>
+            <input type="radio" id="nike" name="resposta_q2" value="nike">
+            <label for="nike">Nike</label><br>
+        </form>
+        <a href="#q1">Questão Anterior</a> | <a href="#q3">Próxima Questão</a>
+    </div>
+
+    <!-- Questão 3 -->
+    <div class="question" id="q3">
+        <h2>Questão 3</h2>
+        <p>Qual é o resultado de 2 + 2?</p>
+        <form>
+            <input type="radio" id="resposta_q3_a" name="resposta_q3" value="4">
+            <label for="resposta_q3_a">4</label><br>
+            <input type="radio" id="resposta_q3_b" name="resposta_q3" value="5">
+            <label for="resposta_q3_b">5</label><br>
+            <input type="radio" id="resposta_q3_c" name="resposta_q3" value="6">
+            <label for="resposta_q3_c">6</label><br>
+            <input type="radio" id="resposta_q3_d" name="resposta_q3" value="7">
+            <label for="resposta_q3_d">7</label><br>
+        </form>
+        <a href="#q2">Questão Anterior</a> | <a href="#q4">Próxima Questão</a>
+    </div>
+    <!-- Questão 4 -->
+    <!-- Adicione mais questões conforme necessário -->
+
+    <!-- Footer -->
+    <footer>
+        <p>Desenvolvido por Jonathan Eduardo de Oliveira</p>
+        <p>Email: jonathan.mega2@gmail.com</p>
+    </footer>
+    <div id="tempo-restante"></div >
+    <script src="prossimo.js"></script>
+    <script src="contagem_regressiva.js"></script>
+</body>
+</html>
