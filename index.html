@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prova - Questões</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
+<div class="container mt-5">
+    <header>
     <h1>Prova - Questões</h1>
     <p id="tempo-restante">60:00</p>
+
+    <img src="imagens/logo.jpg"logo alt="logo do saite gráfico com um padrão circular semelhante a um labirinto. No centro, há um hexágono. O padrão consiste em círculos concêntricos preenchidos com caminhos intrincados semelhantes a um labirinto e formas geométricas como retângulos e setas. A paleta de cores inclui tons de verde em um fundo escuro, criando um contraste que destaca a complexidade e simetria do design. " style="max-width: 200px;">
 
     <form id="myForm">
         <label for="name">Nome:</label><br>
@@ -16,7 +21,6 @@
         <label for="email">Email:</label><br>
         <input type="email" id="email" name="email"><br><br>
 
-        <!-- Questão 1 -->
         <div class="question" id="q1">
             <h2>Questão 1</h2>
             <h3>Verdadeiro ou Falso?</h3>
@@ -28,7 +32,6 @@
             <button type="button" onclick="mostrarProximaQuestao(1)">Próxima Questão</button>
         </div>
 
-        <!-- Questão 2 -->
         <div class="question" id="q2" style="display: none;">
             <h2>Questão 2</h2>
             <p>Qual destas é uma empresa de tecnologia?</p>
@@ -43,7 +46,6 @@
             <button type="button" onclick="mostrarProximaQuestao(2)">Próxima Questão</button>
         </div>
 
-        <!-- Questão 3 -->
         <div class="question" id="q3" style="display: none;">
             <h2>Questão 3</h2>
             <p>Qual é a fórmula de Bhaskara para calcular as raízes de uma equação do segundo grau?</p>
@@ -58,7 +60,6 @@
             <button type="button" onclick="mostrarProximaQuestao(3)">Próxima Questão</button>
         </div>
 
-        <!-- Questão 4 -->
         <div class="question" id="q4" style="display: none;">
             <h2>Questão 4</h2>
             <p>Qual é o mascote oficial da linguagem de programação Java?</p>
@@ -73,7 +74,6 @@
             <button type="button" onclick="mostrarProximaQuestao(4)">Próxima Questão</button>
         </div>
 
-        <!-- Questão 5 -->
         <div class="question" id="q5" style="display: none;">
             <h2>Questão 5</h2>
             <p>Em que ano a linguagem de programação Java foi lançada?</p>
@@ -88,7 +88,6 @@
             <button type="button" onclick="mostrarProximaQuestao(5)">Próxima Questão</button>
         </div>
 
-        <!-- Questão 6 -->
         <div class="question" id="q6" style="display: none;">
             <h2>Questão 6</h2>
             <p>Qual é o nome atual da Bolsa de Valores do Brasil?</p>
@@ -103,7 +102,6 @@
             <button type="button" onclick="mostrarProximaQuestao(6)">Próxima Questão</button>
         </div>
 
-        <!-- Questão 7 -->
         <div class="question" id="q7" style="display: none;">
             <h2>Questão 7</h2>
             <p>Como você definiria algoritmo em programação?</p>
@@ -118,7 +116,6 @@
             <button type="button" onclick="mostrarProximaQuestao(7)">Próxima Questão</button>
         </div>
 
-        <!-- Questão 8 -->
         <div class="question" id="q8" style="display: none;">
             <h2>Questão 8</h2>
             <p>Como você definiria uma variável em programação?</p>
@@ -133,7 +130,6 @@
             <button type="button" onclick="mostrarProximaQuestao(8)">Próxima Questão</button>
         </div>
 
-        <!-- Questão 9 -->
         <div class="question" id="q9" style="display: none;">
             <h2>Questão 9</h2>
             <p>Qual empresa desenvolve e mantém a linguagem de programação Java?</p>
@@ -148,7 +144,6 @@
             <button type="button" onclick="mostrarProximaQuestao(9)">Próxima Questão</button>
         </div>
 
-        <!-- Questão 10 -->
         <div class="question" id="q10" style="display: none;">
             <h2>Questão 10</h2>
             <p>Qual destas é uma IDE que suporta programação em Java?</p>
@@ -164,6 +159,13 @@
         </div>
     </form>
 
+    <footer>
+        <p>Desenvolvido por Jonathan Eduardo de Oliveira</p>
+        <p>Email: jonathan.mega2@gmail.com</p>
+    </footer>
+
     <script src="script.js"></script>
+</div>
+
 </body>
 </html>
